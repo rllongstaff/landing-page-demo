@@ -1,0 +1,81 @@
+.dark-background {
+    background: #2d232e;
+    color: #f1f0ea;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.blue-background {
+    background: radial-gradient(circle, rgba(4,46,192,1) 25%, rgba(3,4,94,1) 100%);
+    color: #68dcf2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background: left / cover no-repeat url("img/xbox-x-banner.jpg");
+}
+
+header h1, 
+header p {
+    color: #e8fccf;
+    text-shadow: 1px 1px 1px rgba(19, 70, 17, 1);
+}
+
+header .row {
+    height: 100vh;
+}
+
+#mainNavbar .navbar-brand {
+    color: #e8fccf;
+    text-shadow: 1px 1px 1px rgba(19, 70, 17, 1);
+}
+
+.navbar-brand, h1, h2 {
+    font-family: 'Odibee Sans', cursive;
+}
+
+#mainNavbar {
+    background-color: green;
+}
+
+#mainNavbar .nav-link {
+    color: #e8fccf;
+}
+
+#mainNavbar .dropdown-item:hover {
+    background-color: #96E072;
+}
+
+#mainNavbar form button {
+    color: brown;
+}
+
+#mainNavbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(6,23,6, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border-color: #134611;
+}
+
+#mainNavbar .navbar-toggler {
+    border-color: #134611;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.gameboy-image:hover {
+    opacity: 0.75;
+} 
+
+.order-form button {
+    color: brown;
+}
+
+@media (max-width: 575.98px) {
+    header {
+        background: contain
+    }
+}
