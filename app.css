@@ -9,13 +9,13 @@ body {
 }
 
 header {
-    background: left / cover no-repeat url("img/xbox-x-banner.jpg");
+    background: left / cover no-repeat url("img/hero.jpg");
 }
 
 header h1, 
 header p {
-    color: #e8fccf;
-    text-shadow: 1px 1px 1px rgba(19, 70, 17, 1);
+    color: #ddd;
+    text-shadow: 1px 1px 1px rgb(5, 19, 4);
 }
 
 header .row {
