@@ -4,6 +4,10 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
+.dark-background h2 {
+    color: #f1f0ea;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -55,6 +59,11 @@ header .row {
 
 h2 {
     margin: 20px 0;
+    color: #615552;
+}
+
+h3 {
+    color: #615552;
 }
 
 .gameboy-image:hover {
@@ -63,6 +72,11 @@ h2 {
 
 .order-form button {
     color: brown;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #e26d5c;
 }
 
 @media (max-width: 575.98px) {
